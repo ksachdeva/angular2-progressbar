@@ -1,0 +1,32 @@
+{
+  "name": "angular2-progressbar",
+  "version": "0.2.0",
+  "description": "Angular2 component for progressbarjs",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksachdeva/angular2-progressbar.git"
+  },
+  "keywords": [
+    "angular2",
+    "progressbar"
+  ],
+  "author": "Kapil Sachdeva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksachdeva/angular2-progressbar/issues"
+  },
+  "homepage": "https://github.com/ksachdeva/angular2-progressbar#readme",
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.4",
+    "@angular/core": "2.0.0-rc.4",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.33.3",
+    "es7-reflect-metadata": "^1.6.0",
+    "progressbar.js": "^1.0.1",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "0.6.12"
+  }
+}
