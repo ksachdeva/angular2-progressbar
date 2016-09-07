@@ -36,7 +36,7 @@ export interface ShapeOptions {
   fill?: string;
   from?: any;
   to?: any;
-  step?: (state, bar, attachment) => void;
+  step?: (state: any, circle: any, attachment: any) => void;
   warnings?: boolean;
 }
 
@@ -45,7 +45,7 @@ export interface AnimationOptions {
   easing?: Easing;
   from?: any;
   to?: any;
-  step?: (state, circle, attachment) => void;
+  step?: (state: any, circle: any, attachment: any) => void;
 }
 
 export namespace ProgressBar {
